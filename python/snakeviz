@@ -1,0 +1,4 @@
+python -m cProfile -o resultado.prof epidemia3.py
+snakeviz resultado.prof
+
+kernprof -l -v epidemia3.py

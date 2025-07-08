@@ -1,0 +1,12 @@
+# Ignorar todos los archivos .data en cualquier carpeta
+*.data
+
+# O específicamente en la carpeta openmp
+openmp/*.data
+openmp/*.data.old
+
+# Archivos binarios comunes o temporales
+*.log
+*.out
+*.o
+*.exe

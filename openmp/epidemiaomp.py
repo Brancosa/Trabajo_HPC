@@ -6,7 +6,7 @@ import sys
 def main():
 
     #M = 100000000
-    M = 100000000
+    M = int(sys.argv[1]) if len(sys.argv) > 1 else 80000
     
     initial_infected = int(sys.argv[1]) if len(sys.argv) > 1 else 10000000
     infection_prob = 1.0  # puedes cambiar este valor entre 0 y 1
